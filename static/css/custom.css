@@ -1,0 +1,38 @@
+/*!
+* Template Name: DashLite
+* Author: Softnio
+* Author URI: http://themeforest.net/user/softnio
+* Version: 2.3.0
+* Updated: 01.14.2021
+**/
+
+
+@media (min-width: 1200px) { 
+    .has-sidebar .nk-wrap{ 
+        padding-left: 80px;
+    } 
+}
+
+.red_label{
+    color: #e85347 !important;
+}
+
+.green_label{
+    color: #1ee0ac !important
+}
+
+.analytic-au-data{
+    width: 33% !important;
+}
+
+.analytic-data .title {
+    font-size: 1.2vh !important;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.analytic-data .amount {
+    font-size: 1.8vh !important;
+}

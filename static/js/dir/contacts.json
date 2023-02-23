@@ -1,0 +1,15 @@
+[   
+    {
+        "id": 1,
+        "name": "User",
+        "status": "online",
+        "profile": "static/images/users/user-dummy-img.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Taylor Assistant",
+        "status": "online",
+        "profile": "static/images/users/taylor_character.jpg"
+    }
+  ]
+  
