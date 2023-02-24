@@ -5,9 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Método Soninho Gostoso</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+
+        @font-face {
+            font-family: myFont;
+                src: url(./static/fonts/KaiseiDecol-Regular.ttf);
+
+            font-family: myFontBold;
+                src: url(./static/fonts/KaiseiDecol-Bold.ttf);
+        }
+
+        body{
+            font-family: myFont;
+        }
+
+        .bold{
+            font-family: myFontBold;
+        }
+
+        .video-col {
+            padding-left: 16px;
+            padding-top: 50px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+
+        .title-video-col{
+            padding-left: 50px;
+            padding-top: 50px;
+            padding-right: 16px;
+            padding-bottom: 50px;
+        }
+
+        .small-jump{
+            margin-top: 0px;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .small-jump{
+                margin-top: 8px;
+            }
+        }
+
+        @media only screen and (max-width: 991px) {
+
+            .video-col {
+                padding-top: 0px !important;
+                padding-left: 50px !important;
+            }
+
+            .title-video-col{
+                padding-bottom: 16px !important;
+                padding-right: 50px !important;
+            }
+        }
+        
+    </style>
   </head>
-  <body>
-    <h1>Método Soninho Gostoso</h1>
+  <body style="background-color: #FFFFFF;">
+    <!-- <h1>Método Soninho Gostoso</h1> -->
+
+    <div class="container-fluid" style="background-color: #5F665C;">
+        <div class="row">
+            <div class="col col-xs-12 col-sm-12 col-12 col-md-12 col-lg-6 title-video-col">
+
+                <div class="row">                    
+
+                    <div class="col col-12 mt-2">
+                        <img src="./static/images/exclusivo_tag.svg" style="max-width: 180px;width: 100%;"/>
+                    </div>
+
+                    <div class="col col-12 mt-4" style="color: #D9D9D9; font-size: 3vw;">
+                        <span style="color: #FFFFFF;"><b class="bold">Mãe</b></span> descobre <span style="color: #FFFFFF;"><b class="bold">MÉTODOS SECRETOS</b></span> para fazer o seu bebê dormir 8 horas contínuas!
+                    </div>
+
+                    <div class="col col-12" style="color: #D9D9D9;">
+                        <img src="./static/images/short_line.svg" style="max-width: 100px;width: 100%;"/>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col col-xs-12 col-sm-12 col-12 col-md-12 col-lg-6 video-col">
+
+                <div style="position:relative;padding-bottom:56.25%;">
+                    <iframe src="https://player.vimeo.com/video/780360690" width="100%" height="100%" style="width:100%;height:100%;position:absolute;left:0px;top:0px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </div>
+
+                <div class="row mt-4">
+
+                    <div class="col col-12 col-xs-12 col-sm-12 col-md-6">
+
+                        <div style="padding: 8px;background-color: #D9D9D9; border-radius: 25px;" class="text-center">
+                            <span class="row" style="font-size: 1.rem; font-family: myFontBold;"><b>Bonus Gratuito</b></span>
+                            <span style="font-size: 0.8rem;">Assista ao video e veja como</span>
+                        </div>
+
+                    </div>
+
+                    <div class="col col-12 col-xs-12 col-sm-12 col-md-6 small-jump">
+                        
+                        <div style="padding: 8px;background-color: #27DD9B; border-radius: 25px;" class="text-center">
+                            <span class="row" style="font-size: 1.rem; font-family: myFontBold;"><b>Sim!</b></span>
+                            <span style="font-size: 0.8rem;">Quero obter o Método!</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center" style="background-color: #DDE7E0;">
+        
+        <div class="row">
+            <div class="col" style="background-image: url('./static/images/div_line.png');background-repeat: repeat-x; margin-top: 8px;"> 
+                &nbsp;              
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+            Column
+            </div>
+            <div class="col">
+            Column
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center" style="background-color: #FFFFFF;">
+        <div class="row">
+            <div class="col">
+            Column
+            </div>
+            <div class="col">
+            Column
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
