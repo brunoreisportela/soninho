@@ -20,3 +20,7 @@ def service():
 @app.route("/index")
 def index():
     return render_template("/index.html")
+
+@app.route("/terms")
+def terms():
+    return render_template("/terms.html")
