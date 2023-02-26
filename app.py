@@ -24,3 +24,7 @@ def index():
 @app.route("/terms")
 def terms():
     return render_template("/terms.html")
+
+@app.route("/sitemap")
+def terms():
+    return render_template("/terms.html")
