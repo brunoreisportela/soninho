@@ -211,7 +211,7 @@
 
                     </div> -->
 
-                    <div id="purchase_button" class="col col-12 col-xs-12 col-sm-12 col-md-12 small-jump d-none" onclick="goToPurchase()" style="cursor: pointer;">
+                    <div id="purchase_button" class="col col-12 col-xs-12 col-sm-12 col-md-12 small-jump" onclick="goToPurchase()" style="cursor: pointer;">
                         <div style="padding: 8px;background-color: #27DD9B; border-radius: 25px;" class="text-center">
                             <span class="row" style="font-size: 1.rem; font-family: myFontBold;"><b>Sim! Quero obter o Método!</b></span>
                             <span style="font-size: 0.7rem; color: #5F665C;">Quero obter o método e garantir o bônus</span>
@@ -362,9 +362,9 @@
             var purchaseButton = $("#purchase_button");
 
             // toggleButton(false, bonusButton);
-            toggleButton(false, purchaseButton);
+            // toggleButton(false, purchaseButton);
 
-            hide(purchaseButton);
+            // hide(purchaseButton);
 
             console.log(duration);
             
@@ -379,8 +379,8 @@
 
                     if (currentTime >= purchaseDuration && isPurchaseAllowed == false) {
                         isPurchaseAllowed = true;
-                        toggleButton(true, purchaseButton);
-                        show(purchaseButton);
+                        // toggleButton(true, purchaseButton);
+                        // show(purchaseButton);
 
                         click_on_play();
                     }
